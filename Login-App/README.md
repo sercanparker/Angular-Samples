@@ -3,8 +3,10 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.3.
 
 # iPhone 5S
+![Alt text](https://github.com/sercanparker/Angular-Samples/blob/master/Login-App/iphone_5S.png "Test Execution")
 
 # 1280x720
+![Alt text](https://github.com/sercanparker/Angular-Samples/blob/master/Login-App/1280x720.png "Test Execution")
 
 # 1920x1001
 ![Alt text](https://github.com/sercanparker/Angular-Samples/blob/master/Login-App/1920x1001.png "Test Execution")
