@@ -7,6 +7,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 # 1280x720
 
 # 1920x1001
+![Alt text](https://github.com/sercanparker/Angular-Samples/blob/master/Login-App/1920x1001.png "Test Execution")
 
 ## About Angular Material Desing
 
