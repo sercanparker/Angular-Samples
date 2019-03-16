@@ -1,0 +1,23 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <button mat-icon-button (click)="triggerTheSideNav()">
+        <mat-icon>menu</mat-icon>  
+    </button>
+    <span>Toolbar</span>
+  </mat-toolbar-row>
+</mat-toolbar>
+<mat-sidenav-container>
+  <mat-sidenav mode="side" opened="{{isSidenavOpen}}">
+    <mat-list>
+      <mat-list-item *ngFor="let item of sideNavItemList">
+        <mat-icon mat-list-icon>{{item.iconName}}</mat-icon>
+        <h3 mat-line>{{item.name}}</h3>
+        <mat-divider></mat-divider>
+      </mat-list-item>
+    </mat-list>
+  </mat-sidenav>
+  <mat-sidenav-content></mat-sidenav-content>
+</mat-sidenav-container>
+
+<router-outlet></router-outlet>
