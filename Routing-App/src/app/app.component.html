@@ -9,15 +9,20 @@
 </mat-toolbar>
 <mat-sidenav-container>
   <mat-sidenav mode="side" opened="{{isSidenavOpen}}">
-    <mat-list>
-      <mat-list-item *ngFor="let item of sideNavItemList">
+    <mat-nav-list>
+      <a mat-list-item 
+        *ngFor="let item of sideNavItemList" 
+        (click)="onRowClicked(item)" 
+        routerLink="{{item.routePath}}">
         <mat-icon mat-list-icon>{{item.iconName}}</mat-icon>
         <h3 mat-line>{{item.name}}</h3>
         <mat-divider></mat-divider>
-      </mat-list-item>
-    </mat-list>
+      </a>
+    </mat-nav-list>
   </mat-sidenav>
-  <mat-sidenav-content></mat-sidenav-content>
+  <mat-sidenav-content>
+      <router-outlet></router-outlet>
+  </mat-sidenav-content>
 </mat-sidenav-container>
 
-<router-outlet></router-outlet>
+
