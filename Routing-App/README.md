@@ -3,8 +3,10 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.3.
 
 # iPhone 5/SE
+![Alt text](https://github.com/sercanparker/Angular-Samples/blob/master/Routing-App/src/assets/iPhone5:SE.png "Test Execution")
 
 # 1280x720
+![Alt text](https://github.com/sercanparker/Angular-Samples/blob/master/Routing-App/src/assets/1280x720.png "Test Execution")
 
 ## About Angular Material Design
 
