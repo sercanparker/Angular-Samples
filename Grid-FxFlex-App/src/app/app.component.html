@@ -1,0 +1,46 @@
+<!-- <div fxLayout="column">
+  <div fxFlex="30" style="background-color: aquamarine">A</div>
+  <div style="background-color: blue"> B</div>
+  <div style="background-color: chartreuse"> C</div>
+</div> -->
+<div fxLayout="column" fxFlexFill> 
+    <div fxFlex="8">
+        <mat-toolbar color="primary" fxFlexFill>
+            <mat-toolbar-row>
+                <button mat-icon-button (click)="triggerTheSideNav()">
+                    <mat-icon>menu</mat-icon>  
+                </button>
+                <span>Toolbar</span>
+                <span class="example-spacer"></span>
+                <button mat-icon-button [matMenuTriggerFor]="menu">
+                    <mat-icon matBadge={{totalNumberOfNotification}} matBadgePosition="above after" matBadgeColor="warn">
+                      more_vert
+                    </mat-icon>
+                  </button>
+                  <mat-menu #menu="matMenu">
+                    <button mat-menu-item *ngFor="let item of menuItemList">
+                      <mat-icon matBadge="{{item.numberOfNotifications}}" matBadgePosition="above after" matBadgeColor="warn">{{item.iconName}}</mat-icon>
+                      <span>{{item.name}}</span>
+                    </button>
+                  </mat-menu>
+            </mat-toolbar-row>
+          </mat-toolbar>
+    </div>
+    <div fxFlex="92" > 
+        <mat-sidenav-container fxFlexFill>
+            <mat-sidenav mode="side" opened="{{isSidenavOpen}}">
+              <mat-list>
+                <mat-list-item *ngFor="let item of sideNavItemList">
+                  <mat-icon mat-list-icon>{{item.iconName}}</mat-icon>
+                  <h3 mat-line>{{item.name}}</h3>
+                  <mat-divider></mat-divider>
+                </mat-list-item>
+              </mat-list>
+            </mat-sidenav>
+            <mat-sidenav-content>
+
+            </mat-sidenav-content>
+          </mat-sidenav-container>
+    </div>
+</div>
+<!-- <router-outlet></router-outlet> -->
