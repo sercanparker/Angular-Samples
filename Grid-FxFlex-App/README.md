@@ -3,10 +3,10 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.3.
 
 # iPhone 6/7/8
-![Alt text](https://github.com/sercanparker/Angular-Samples/blob/master/SideNavToolbar-App/iphone678.png "Test Execution")
+![Alt text](https://github.com/sercanparker/Angular-Samples/blob/master/Grid-FxFlex-App/src/assets/iphone6:7:8.png "Test Execution")
 
 # 1280x720
-![Alt text](https://github.com/sercanparker/Angular-Samples/blob/master/SideNavToolbar-App/1280x720.png "Test Execution")
+![Alt text](https://github.com/sercanparker/Angular-Samples/blob/master/Grid-FxFlex-App/src/assets/1280x720.png "Test Execution")
 
 
 ## About Angular Material Design
